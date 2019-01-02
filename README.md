@@ -6,8 +6,6 @@ Example App detecting objects from video capture using menoh that is DNN inferen
 
 ```
 Usage of webcam-detect-menoh:
-  -input-image string
-    	input image path (default "data/Light_sussex_hen.jpg")
   -model string
     	ONNX model path (default "data/vgg16.onnx")
   -synset-words string
