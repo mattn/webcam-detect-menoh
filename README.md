@@ -1,6 +1,6 @@
 # webcam-detect-monoh
 
-Object detection using menoh that is DNN inference library.
+Example App detecting objects from video capture using menoh that is DNN inference library.
 
 ## Usage
 
