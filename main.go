@@ -73,7 +73,7 @@ func loadCategoryList(path string) ([]string, error) {
 	categories := []string{}
 	scanner := bufio.NewScanner(file)
 	for scanner.Scan() {
-		categories = append(categories, strings.Fields(scanner.Text())[1])
+		categories = append(categories, strings.SplitN(scanner.Text(), " ", 2)[1])
 	}
 	if err := scanner.Err(); err != nil {
 		return []string{}, err
